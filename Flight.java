@@ -15,7 +15,7 @@ class Flight {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            clearConsole();
+            System.out.println("\n\t******************************************");
             System.out.println("\n\t******************************************");
             System.out.println("\t\tWELCOME TO YEMEN AIRWAYS");
             System.out.println("\t******************************************\n");
@@ -60,7 +60,7 @@ class Flight {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            clearConsole();
+            System.out.println("\n\t******************************************");
             System.out.println("\n\n\t      WELCOME  ADMIN");
             System.out.println("\t##########################################");
             System.out.println("\t\tYEMEN AIRWAYS RESERVATION SYSTEM");
@@ -196,7 +196,7 @@ class Flight {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            clearConsole();
+            System.out.println("\n\t******************************************");
             System.out.println("\n\n\t      WELCOME  USER");
             System.out.println("\t##########################################");
             System.out.println("\t\tYEMEN AIRWAYS RESERVATION SYSTEM");
@@ -347,7 +347,7 @@ class Flight {
     }
 
     public void adisplayFlight() {
-        clearConsole();
+        System.out.println("\n\t******************************************");
         System.out.println("\n\t\t\tFLIGHT DETAILS\n");
         System.out.println("Flight No.\tFlight Code\tSource\tDestination\tDate\tArrival\tDeparture\tPrice\tAvailability");
         try {
@@ -368,7 +368,7 @@ class Flight {
     }
 
     public void delFlight() {
-        clearConsole();
+        System.out.println("\n\t******************************************");
         System.out.println("\n\t\t\tDELETE FLIGHT DETAILS\n");
         adisplayFlight();
 
@@ -417,7 +417,7 @@ class Flight {
     }
 
     public void modFlight() {
-        clearConsole();
+        System.out.println("\n\t******************************************");
         System.out.println("\n\t\t\tMODIFY FLIGHT DETAILS\n");
         adisplayFlight();
 
@@ -588,7 +588,7 @@ class Flight {
     }
 
     public void udisplayFlight() {
-        clearConsole();
+        System.out.println("\n\t******************************************");
         System.out.println("\n\t\t\tFLIGHT DETAILS\n");
         System.out.println("Flight No.\tFlight Code\tSource\tDestination\tDate\tArrival\tDeparture\tPrice\tAvailability");
         try {
@@ -720,7 +720,7 @@ class Flight {
         }
     }
     public void viewticket() {
-        clearConsole();
+        System.out.println("\n\t******************************************");
         System.out.println("\n\t\t\tVIEW TICKET\n");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Passenger ID: ");
@@ -787,7 +787,7 @@ class Flight {
     }
 
     public void cancle() {
-        clearConsole();
+        System.out.println("\n\t******************************************");
         System.out.println("\n\t\t\tCANCELLATION\n");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Passenger ID to cancel reservation: ");
